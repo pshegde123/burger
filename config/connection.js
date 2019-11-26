@@ -11,7 +11,7 @@ else {
         user: 'root',
         password: 'admin',
         database: 'burgers_db'
-});
+    });
 }
 
 connection.connect(function (err) {
